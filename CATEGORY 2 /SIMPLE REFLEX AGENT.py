@@ -7,6 +7,7 @@ def reflex_agent(observation, fully_observable):
         else:
             return "No Action"
     else:
+    
         return "Cannot decide - Need more information"
 
 print("Fully Observable:", reflex_agent("Dirty", True))
