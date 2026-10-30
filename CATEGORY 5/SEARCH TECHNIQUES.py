@@ -4,6 +4,7 @@
 def heuristic(board, player):
     opponent = 'O' if player == 'X' else 'X'
     score = 0
+    
 
     winning_lines = [
         (0, 1, 2), (3, 4, 5), (6, 7, 8),
