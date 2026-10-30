@@ -1,4 +1,4 @@
-# Model-Based Agent: Fully Observable vs Partially Observable
+ # Model-Based Agent: Fully Observable vs Partially Observable
 
 class ModelAgent:
     def __init__(self):
