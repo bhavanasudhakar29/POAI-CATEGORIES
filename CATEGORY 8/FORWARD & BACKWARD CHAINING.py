@@ -6,6 +6,7 @@
 # KNOWLEDGE BASE
 # -----------------------------
 
+
 facts = {
     "fever",
     "cough",
