@@ -9,6 +9,7 @@ def minimax(depth, node_index, maximizing_player, values, max_depth):
     if maximizing_player:
         return max(
             minimax(depth + 1, node_index * 2, False, values, max_depth),
+            
             minimax(depth + 1, node_index * 2 + 1, False, values, max_depth)
         )
 
