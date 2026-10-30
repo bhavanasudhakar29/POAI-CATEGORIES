@@ -7,7 +7,7 @@
 class FullyObservableAgent:
     def __init__(self, goal):
         self.goal = goal
-
+ 
     def choose_action(self, current_position):
         x, y = current_position
         gx, gy = self.goal
