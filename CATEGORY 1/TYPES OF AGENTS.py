@@ -1,4 +1,5 @@
 '''CATEGORY 1 - PROJECTS'''
+
 #SRA & MBA - Automatic Vacuum Cleaner
 def simple_reflex_agent(percept):
     if percept == "Dirty":
